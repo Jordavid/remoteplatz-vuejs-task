@@ -13,7 +13,8 @@
                                 <input type="text" class="form-control inpFields firstCol" style="width: 345px" id="purchasePrice" :value="price">
                                 <span style="font-weight: bold;left: 37%;display: inline;top: -43px;position: relative;font-size: 16px;">{{currency}}</span>
                                 <select name="" id="dropdownBar">
-                                    
+                                    <option value=""></option>
+                                    <option :value="currency">{{currency}}</option>
                                 </select>
                             </div>
                             <div class="col-md-6 text-center infos">
