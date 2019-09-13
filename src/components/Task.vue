@@ -52,7 +52,8 @@ export default {
         }
     },
     mounted: function() {
-        axios.get("https://server.offmade.io/code-challenge").then((response ) => {
+        const url = "https://server.offmade.io/code-challenge";
+        axios.get(url).then((response ) => {
             const { price, netRentTotal, plotSize, yearOfConstruction, currency} = response.data;
             this.price = price;
             this.currency = currency;
