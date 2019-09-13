@@ -11,7 +11,7 @@
                             <div class="col-md-6 text-center infos">
                                 <label for="purchasePrice" >Purchase price</label>
                                 <input type="text" class="form-control inpFields firstCol" style="width: 345px" id="purchasePrice" :value="price">
-                                <span style="font-weight: bold;left: 37%;display: inline;top: -43px;position: relative;font-size: 16px;">$</span>
+                                <span style="font-weight: bold;left: 37%;display: inline;top: -43px;position: relative;font-size: 16px;">{{currency}}</span>
                                 <select name="" id="dropdownBar">
                                     
                                 </select>
@@ -28,7 +28,7 @@
                             <div class="col-md-6 text-center infos">
                                     <label for="netRent" class="secCol" style="padding-left: 33px;">Net rent total (p.a)</label>
                                     <input type="text" class="form-control inpFields" id="netRent" style="color: #b5b0b0" :value="netRentTotal">
-                                    <span style="font-weight: bold;right: 143px;display: inline;top: -43px;position: relative;font-size: 16px;border-left: 1px solid lightgrey;padding: 0 15px;">$ / p.a.</span>
+                                    <span style="font-weight: bold;right: 150px;display: inline;top: -43px;position: relative;font-size: 16px;border-left: 1px solid lightgrey;padding: 0 15px;">{{currency}} / p.a.</span>
                             </div>
                         </div>
                     </div>
