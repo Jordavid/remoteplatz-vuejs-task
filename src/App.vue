@@ -15,5 +15,11 @@ export default {
 </script>
 
 <style>
- 
+  .select-wrapper input.select-dropdown {
+      border-bottom: none !important;
+   }
+
+   body {
+     font-family: 'Raleway', sans-serif;
+   }
 </style>
